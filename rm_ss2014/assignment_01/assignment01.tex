@@ -1,0 +1,57 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{datetime}
+\newdate{date}{27}{03}{2014}
+\date{\displaydate{date}}
+\usepackage{filecontents}
+
+\begin{filecontents}{cite.bib}
+@book{Craig,
+ author = {Craig, John J.},
+ title = {Introduction to Robotics: Mechanics and Control},
+ year = {1989},
+ isbn = {0201095289},
+ edition = {2nd},
+ publisher = {Addison-Wesley Longman Publishing Co., Inc.},
+ address = {Boston, MA, USA},
+} 
+\end{filecontents}
+%opening
+\title{Robot Manipulation - Assignment 01}
+\author{Praveen Ramanujam}
+\begin{document}
+\maketitle
+
+
+\section{Lab Class}
+\begin{itemize}
+ \item Introduction to ROS.
+ \item Concept of URDF (Universal Description Format).
+ \item Launching Robot and Related Topics.
+ \item Introduction to TF.
+\end{itemize}
+
+
+
+\section{Mind Map}
+\begin{itemize}
+ \item  Assuming that the Chapter 2 of \cite{Craig} was introduced in $1^{st}$ semester, provide a mind-map of the Chapter `` Spatial descriptions and transformations
+ '' .
+ \item The e-book is available in the Resources Section of LEA.
+\end{itemize}
+
+
+
+
+\section{ROS}
+\begin{itemize}
+ \item ROS acts a messaging layer through out our project.
+ \item 2
+\end{itemize}
+
+\bibliographystyle{abbrv}
+\bibliography{cite}
+
+
+
+\end{document}
