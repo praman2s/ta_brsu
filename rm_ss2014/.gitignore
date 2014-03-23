@@ -1,0 +1,7 @@
+*.bib
+*.blg
+*.aux
+*.bbl
+*.log
+*.backup
+*~
