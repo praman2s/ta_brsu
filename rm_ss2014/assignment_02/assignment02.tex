@@ -1,0 +1,34 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{datetime}
+\usepackage{hyperref}
+\newdate{date}{27}{03}{2014}
+\date{\displaydate{date}}
+\usepackage{filecontents}
+
+\begin{filecontents}{cite.bib}
+@book{Craig,
+ author = {Craig, John J.},
+ title = {Introduction to Robotics: Mechanics and Control},
+ year = {1989},
+ isbn = {0201095289},
+ edition = {2nd},
+ publisher = {Addison-Wesley Longman Publishing Co., Inc.},
+ address = {Boston, MA, USA},
+} 
+\end{filecontents}
+%opening
+\title{Robot Manipulation - Assignment 02}
+\author{Prof. Dr. E. Pra{\ss}ler \\Praveen Ramanujam}
+\begin{document}
+\maketitle
+
+
+
+
+\bibliographystyle{abbrv}
+\bibliography{cite}
+
+
+
+\end{document}
